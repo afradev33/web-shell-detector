@@ -16,24 +16,24 @@ An open-source Python tool to help system administrators scan their own servers 
 
 ## ✨ Features
 
-- 🔴 Detects well-known web shells (c99, r57, b374k, WSO, and more)
-- 🔍 Scans for **25+ malicious patterns** across PHP, ASP, and JSP files
-- 📁 Flags executable files (e.g. PHP) inside upload directories
-- 🏷️ Warns about suspicious filenames commonly used by attackers
-- 📊 Risk level classification: **High / Medium / Suspicious**
-- 📄 Exports a detailed JSON report
-- ⚡ Supports PHP, ASP, ASPX, JSP, PHTML file types
+-  Detects well-known web shells (c99, r57, b374k, WSO, and more)
+-  Scans for **25+ malicious patterns** across PHP, ASP, and JSP files
+-  Flags executable files (e.g. PHP) inside upload directories
+-  Warns about suspicious filenames commonly used by attackers
+-  Risk level classification: **High / Medium / Suspicious**
+-  Exports a detailed JSON report
+-  Supports PHP, ASP, ASPX, JSP, PHTML file types
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.7 or later
 - No external libraries required (Standard Library only)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/web-shell-detector.git
@@ -44,7 +44,7 @@ No additional packages need to be installed.
 
 ---
 
-## 📖 Usage
+##  Usage
 
 ### Basic scan
 ```bash
@@ -77,7 +77,7 @@ python3 shell_detector.py \
 
 ---
 
-## ⚙️ Options
+##  Options
 
 | Option | Shorthand | Description | Default |
 |--------|-----------|-------------|---------|
@@ -88,7 +88,7 @@ python3 shell_detector.py \
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 ```
 ============================================================
@@ -102,7 +102,7 @@ python3 shell_detector.py \
 📂 Found 342 files to scan...
 
 ────────────────────────────────────────────────────────────
-⚠️  /var/www/html/uploads/image.php
+  /var/www/html/uploads/image.php
    Risk  : High Risk 🔴
    Size  : 12.4 KB | MD5: a1b2c3d4e5f6...
    🔸 Executable file (.php) found inside an upload directory
@@ -121,7 +121,7 @@ python3 shell_detector.py \
 
 ---
 
-## 🔎 Detected Patterns
+##  Detected Patterns
 
 ### PHP
 | Pattern | Description |
@@ -161,7 +161,7 @@ web-shell-detector/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -172,12 +172,12 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📞 Contact
+##  Contact
 
-Found a bug or have a suggestion? Please open an [Issue](https://github.com/YOUR_USERNAME/web-shell-detector/issues) on GitHub.
+Found a bug or have a suggestion? Please open an [Issue](https://github.com/afradev33/web-shell-detector/issues) on GitHub.
