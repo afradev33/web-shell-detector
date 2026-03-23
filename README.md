@@ -36,7 +36,7 @@ An open-source Python tool to help system administrators scan their own servers 
 ##  Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/web-shell-detector.git
+git clone https://github.com/afradev33/web-shell-detector.git
 cd web-shell-detector
 ```
 
